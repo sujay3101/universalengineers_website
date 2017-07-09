@@ -14,7 +14,7 @@ var app = express();
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'jade');//TASUJ - Jade commented out
-app.engine('html', require('ejs').renderFile);//TASUJ - use html
+//app.engine('html', require('ejs').renderFile);//TASUJ - use html
 app.set('view engine', 'html');//TASUJ - use html
 app.use(express.favicon());
 app.use(express.logger('dev'));
