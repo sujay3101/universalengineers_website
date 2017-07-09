@@ -7,7 +7,7 @@ var express = require('express');
 var routes = require('./routes/index');
 var http = require('http');
 var path = require('path');
-var customers = require('./routes/customers');
+//var customers = require('./routes/customers');
 
 var app = express();
 
@@ -34,7 +34,7 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/about', routes.about);
 //app.get('/contact', routes.contact);//TASUJ
-app.get('/customers', routes.customers);
+//app.get('/customers', routes.customers);
 
 http.createServer(app).listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));

@@ -15,9 +15,9 @@ exports.about = function (req, res) {
 //    res.render('contact', { title: 'Contact', year: new Date().getFullYear(), message: 'Your contact page' });
 //};
 
-exports.customers = function (req, res) {
-    res.render('Customers', { title: 'Customers title', year: new Date().getFullYear(), message: 'Your customer description page' });
-};
+//exports.customers = function (req, res) {
+//    res.render('Customers', { title: 'Customers title', year: new Date().getFullYear(), message: 'Your customer description page' });
+//};
 
 
 //var express = require('express');
