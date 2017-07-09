@@ -15,6 +15,6 @@
     "stylus": "*"
   }, 
   "scripts": {
-    "start": "node index.js"
+    "start": "app.js"
   }
 }
