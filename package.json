@@ -14,4 +14,7 @@
     "jade": "*",
     "stylus": "*"
   }
+  "scripts":{
+  "start": "node server.js"
+  },
 }
