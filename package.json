@@ -1,0 +1,17 @@
+{
+  "name": "universal_laddha",
+  "version": "0.0.0",
+  "description": "universal_laddha",
+  "main": "app.js",
+  "author": {
+    "name": "Sujay"
+  },
+  "engines":{
+	"node": "6.9.4"
+  }
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
